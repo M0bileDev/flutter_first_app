@@ -7,7 +7,9 @@ void main() {
     MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.purple,
-        body: GradientContainer([Colors.deepPurple, Colors.purple]),
+        body: GradientContainer(
+          [Colors.deepPurple, Colors.purple],
+        ),
       ),
     ),
   );
